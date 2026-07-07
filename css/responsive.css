@@ -1,0 +1,186 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    .hero {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+    .hero h1 {
+        font-size: 36px;
+    }
+    .hero-description {
+        font-size: 16px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .cta {
+        padding: 60px 20px;
+    } 
+    .cta-content h2 {
+        font-size: 30px;
+    }
+    .cta-content p {
+        font-size: 16px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links {
+        justify-content: center;
+    }
+    .footer-bottom {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .course-grid,
+    .path-grid,
+    .feature-grid,
+    .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .course-grid,
+    .path-grid,
+    .feature-grid,
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 992px) {
+    .success-grid,
+    .path-grid,
+    .feature-grid,
+    .testimonial-grid,
+    .curriculum-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .success-grid,
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* courses.html responsive styling */
+
+/* Tablet and smaller laptops */
+
+@media (max-width: 992px) {
+
+    .courses-hero {
+        padding: 70px 24px;
+    }
+
+    .courses-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .curriculum-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .module-content {
+        grid-template-columns: 1fr;
+    }
+
+    .module-topics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .courses-hero {
+        padding: 56px 20px;
+    }
+
+    .courses-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .courses-hero-description {
+        font-size: 16px;
+    }
+
+    .curriculum-overview,
+    .module-details {
+        padding: 60px 20px;
+    }
+
+    .curriculum-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .curriculum-card {
+        padding: 24px;
+    }
+
+    .module-content {
+        grid-template-columns: 1fr;
+    }
+
+    .module-info {
+        padding: 24px;
+    }
+
+    .module-info h3 {
+        font-size: 24px;
+    }
+
+    .module-topics {
+        grid-template-columns: 1fr;
+    }
+
+    .topic-item {
+        padding: 18px;
+    }
+}
+
+
+/* Very small phones */
+
+@media (max-width: 400px) {
+
+    .courses-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .curriculum-overview,
+    .module-details {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .curriculum-card,
+    .module-info {
+        padding: 20px;
+    }
+
+    .topic-item {
+        gap: 12px;
+        padding: 16px;
+    }
+
+    .topic-item p {
+        font-size: 15px;
+    }
+}
