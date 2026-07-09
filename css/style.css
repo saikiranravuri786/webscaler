@@ -455,9 +455,6 @@ footer {
     margin: 0 auto;
 }
 
-
-/* Curriculum Overview */
-
 .curriculum-overview {
     padding: 80px 24px;
     background-color: #ffffff;
@@ -518,15 +515,10 @@ footer {
     color: #0369a1;
 }
 
-
-/* Detailed Module Sections */
-
 .module-details {
     padding: 80px 24px;
     background-color: #f1f5f9;
 }
-
-/* Alternate module backgrounds for better structure */
 
 .module-details:nth-of-type(even) {
     background-color: #ffffff;
@@ -538,9 +530,6 @@ footer {
     gap: 24px;
     align-items: stretch;
 }
-
-
-/* Module Information Panel */
 
 .module-info {
     padding: 32px;
@@ -573,9 +562,6 @@ footer {
     font-size: 16px;
     line-height: 1.6;
 }
-
-
-/* Module Topics */
 
 .module-topics {
     display: grid;
@@ -614,17 +600,11 @@ footer {
     box-shadow: 0 8px 20px rgba(15, 23, 42, 0.10);
 }
 
-
-/* Smooth hover transitions */
-
 .curriculum-card,
 .topic-item {
     transition: transform 0.25s ease,
                 box-shadow 0.25s ease;
 }
-
-
-/* Better same-page anchor positioning */
 
 #java-module,
 #dsa-module,
@@ -633,4 +613,116 @@ footer {
 #system-design-module,
 #data-product-module {
     scroll-margin-top: 24px;
+}
+/* paths.html styling */
+
+.paths-hero {
+    background-color: #f8fafc;
+    padding: 80px 24px;
+}
+
+.paths-hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paths-hero-content h1 {
+    color: #0f172a;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.paths-hero-description {
+    color: #475569;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.paths-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.path-topics {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.path-topics li {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.path-link {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.journey-section {
+    padding: 80px 24px;
+    background-color: #ffffff;
+}
+
+.journey-steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.journey-step {
+    padding: 24px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+.journey-step span {
+    color: #0284c7;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.journey-step h3 {
+    color: #0f172a;
+    font-size: 20px;
+    margin: 16px 0 10px;
+}
+
+.journey-step p {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.paths-cta {
+    padding: 80px 24px;
+    background-color: #0f172a;
+}
+
+.paths-cta-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.paths-cta h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.paths-cta p {
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
 }
