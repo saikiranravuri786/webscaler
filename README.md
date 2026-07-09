@@ -1,104 +1,82 @@
+<div align="center">
+
 # WebScaler
 
-WebScaler is a responsive online learning platform UI designed to provide structured software engineering education and career-focused preparation.
+### A responsive multi-page learning platform for structured software engineering journeys.
 
-The project is inspired by modern online learning platforms and is being developed step by step with a focus on clean design, responsive layouts, structured learning journeys, and job-oriented progression.
+<br>
 
-## Current Features
+[![Live Demo](https://img.shields.io/badge/Live_Demo-0284C7?style=for-the-badge&logo=githubpages&logoColor=white)](https://saikiran-ravuri.github.io/webscaler/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saikiran-ravuri/webscaler)
 
-- Responsive multi-page website structure
-- Modern navigation and landing page
-- Structured Core Curriculum
-- Career-focused Success Path
-- Learner community section
-- Responsive Courses page
-- Same-page module navigation
-- Mobile, tablet, and desktop support
+</div>
 
-## Core Curriculum
+---
 
-The curriculum currently includes:
+## About
 
-- Java Programming
-- DSA & Problem Solving
-- SQL & Databases
-- Full Stack Development
-- System Design
-- Data Engineering & Product Management
+WebScaler is a frontend learning-platform project built as a complete multi-page website.
 
-## Detailed Learning Modules
+It brings course exploration, goal-based learning paths, pricing, platform information, and learner support into a consistent and responsive web experience.
 
-### Java Programming
-- Programming Fundamentals
-- Object-Oriented Programming
-- Collections Framework
-- Exception Handling
-- Multithreading
-- Advanced Java Concepts
+---
 
-### DSA & Problem Solving
-- DSA Refresher
-- DSA Intermediate
-- Advanced DSA 1
-- Advanced DSA 2
-- Advanced DSA 3
-- Advanced DSA 4.2
+## Pages
 
-### SQL & Databases
-- SQL Fundamentals
-- Advanced SQL
-- Joins & Subqueries
-- Database Design
-- Indexing & Transactions
-- DBMS Concepts
+| Page | Purpose |
+| --- | --- |
+| **Home** | Platform overview and learning journey |
+| **Courses** | Structured modules and course exploration |
+| **Learning Paths** | Goal-based software engineering roadmaps |
+| **Pricing** | Clear learning plan comparison |
+| **About** | Platform purpose and values |
+| **Contact** | Learner support and contact interface |
 
-### Full Stack Development
-- HTML & CSS
-- JavaScript
-- MERN Full Stack
-- Java Full Stack
-- Backend APIs
-- Full Stack Projects
+---
 
-### System Design
-- OOP for Design
-- Design Patterns
-- Low-Level Design
-- Machine Coding
-- High-Level Design
-- Scalable Systems
+## Tech Stack
 
-### Data Engineering & Product Management
-- Data Engineering Fundamentals
-- Data Pipelines & ETL
-- Data Warehousing
-- Product Thinking
-- Product Strategy
-- Product Management for Software Engineers
+<div align="center">
 
-## Success Path
+<img src="https://skillicons.dev/icons?i=html,css,git,github,vscode" alt="WebScaler Tech Stack" />
 
-WebScaler presents a structured learner journey focused on consistent progress and career readiness:
+<br><br>
 
-1. Learn Consistently
-2. Complete Assignments
-3. Take Skill Tests
-4. Mock Interviews & Skill Certificates
-5. Build a Strong Resume
-6. Placement Portal for Better Package Opportunities
+`Semantic HTML` · `CSS Grid` · `Flexbox` · `Responsive Design` · `GitHub Pages`
 
-## Technologies Used
+</div>
 
-- HTML5
-- CSS3
-- Responsive Web Design
-- CSS Grid
-- Flexbox
-- Git
-- GitHub
-- Visual Studio Code
+---
 
-## Project Structure
+## Project Architecture
+
+```mermaid
+flowchart TB
+    A["WebScaler"]
+
+    A --> B["Pages"]
+    A --> C["Styling"]
+    A --> D["Assets"]
+    A --> E["Repository"]
+
+    B --> B1["Home"]
+    B --> B2["Courses"]
+    B --> B3["Learning Paths"]
+    B --> B4["Pricing"]
+    B --> B5["About"]
+    B --> B6["Contact"]
+
+    C --> C1["Core Styles"]
+    C --> C2["Responsive Styles"]
+
+    D --> D1["Static Resources"]
+
+    E --> E1["README"]
+    E --> E2["Git Ignore"]
+```
+
+<details>
+<summary><strong>View file structure</strong></summary>
 
 ```text
 WebScaler/
@@ -106,11 +84,57 @@ WebScaler/
 ├── css/
 │   ├── style.css
 │   └── responsive.css
-├── .gitignore
-├── README.md
 ├── index.html
 ├── courses.html
 ├── paths.html
 ├── pricing.html
 ├── about.html
-└── contact.html
+├── contact.html
+├── .gitignore
+└── README.md
+```
+
+</details>
+
+---
+
+## Engineering Highlights
+
+- Semantic multi-page HTML structure
+- Reusable UI patterns and shared components
+- Responsive layouts with CSS Grid and Flexbox
+- Consistent navigation and visual hierarchy
+- Dedicated responsive styling for multiple screen sizes
+- Organized separation of core and responsive styles
+- Git-based version control workflow
+- Live deployment with GitHub Pages
+
+---
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/saikiran-ravuri/webscaler.git
+```
+
+Open the `webscaler` folder and launch `index.html` in your browser.
+
+---
+
+## Roadmap
+
+- JavaScript-powered interactions
+- Client-side form validation
+- Interactive mobile navigation
+- Dynamic course filtering
+- Accessibility improvements
+
+---
+
+## Author
+
+**Ravuri Sai Kiran**
+
+[![GitHub](https://img.shields.io/badge/GitHub-saikiran--ravuri-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saikiran-ravuri)
