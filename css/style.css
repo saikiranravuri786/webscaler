@@ -881,3 +881,167 @@ footer {
     font-size: 17px;
     line-height: 1.7;
 }
+
+/* styling about.html */
+
+.about-hero {
+    padding: 80px 24px;
+    background-color: #f8fafc;
+}
+
+.about-hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-hero-content h1 {
+    color: #0f172a;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.about-hero-description {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #475569;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-section {
+    padding: 80px 24px;
+    background-color: #ffffff;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.about-content h2 {
+    color: #0f172a;
+    font-size: 36px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.about-content > p:not(.hero-label) {
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.about-highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px;
+    background-color: #0f172a;
+    border-radius: 12px;
+}
+
+.about-highlight h3 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.about-highlight p {
+    color: #cbd5e1;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.mission-section {
+    padding: 80px 24px;
+    background-color: #f1f5f9;
+}
+
+.mission-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.mission-card {
+    padding: 28px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.mission-card h3 {
+    color: #0f172a;
+    font-size: 21px;
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.mission-card p {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.mission-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+
+/* Values Section */
+
+.values-section {
+    padding: 80px 24px;
+    background-color: #ffffff;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.value-card {
+    padding: 28px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.value-card span {
+    display: inline-block;
+    color: #0284c7;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.value-card h3 {
+    color: #0f172a;
+    font-size: 21px;
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.value-card p {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
